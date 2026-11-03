@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
+<rect width="800" height="180" rx="16" fill="#16181d"/>
+<rect x="20" y="20" width="760" height="48" rx="10" fill="#30333b"/>
+<g fill="#f6f7f9" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="18">
+<text x="42" y="50" font-weight="600">LibreBar</text>
+<text x="502" y="50" font-weight="600">126 →</text>
+<text x="610" y="50">Mon 10:30 AM</text>
+<text x="40" y="111" font-size="17">Your glucose and trend, always in view.</text>
+<text x="40" y="145" fill="#aeb4c2" font-size="14">Illustrative menu bar preview · sample reading in mg/dL</text>
+</g></svg>
