@@ -1,5 +1,7 @@
 # LibreBar
 
+Current version: **0.2.0**.
+
 A native Mac menu bar display for LibreLinkUp glucose readings. Requires macOS 13 or later and Apple’s Swift command-line tools. Builds for your Mac’s architecture; tested on Apple Silicon. No Dock icon, web server, analytics, or external dependencies.
 
 **Unofficial personal project.** Not affiliated with, endorsed by, or supported by Abbott. This uses an undocumented API that may change or stop working. Use the official Libre app for treatment decisions and alarms; LibreBar is a convenience display.
@@ -25,7 +27,7 @@ The app is locally signed, not Apple-notarized. No prebuilt download is provided
 3. Enter that follower account’s email and password in LibreBar Settings and click Save & Connect.
 4. If the account follows multiple people, choose your name in the menu bar menu.
 
-The menu bar shows the glucose value and trend arrow. Click it for units, the reading’s timestamp, refresh, settings, and Quit. Choose Show mmol/L if preferred; the default is mg/dL. It refreshes every minute while the Mac is awake and after waking. A warning symbol indicates a reading older than five minutes or an unknown/invalid timestamp. If a refresh fails, the previous reading remains visible and its timestamp continues to age; open the menu to see the error.
+The menu bar shows the glucose value and trend arrow. Click it to open a graph of the last 12 hours, with the current reading, timestamp, Refresh, and Settings. Options contains units, connection selection, login settings, and Quit. The graph highlights the connection’s `targetLow`–`targetHigh` range from LibreLinkUp and shows “Glucose In Range” when the latest value falls within it (inclusive). Missing or invalid targets use a clearly labeled 70–180 mg/dL default. Both the band and label follow the selected display units. These are target glucose values, not alarm thresholds. Close the panel with its close button, Escape, a second click on the menu bar reading, or a click outside. History is fetched from LibreLinkUp and stays in memory; missing periods are left as gaps, and fewer than 12 hours may be available. Choose Show mmol/L if preferred; the default is mg/dL. It refreshes every minute while the Mac is awake and after waking. A warning symbol indicates a reading older than five minutes or an unknown/invalid timestamp. If a refresh fails, the previous reading remains visible and its timestamp continues to age; open the menu to see the error.
 
 Launch at Login is optional and starts off. Choose a permanent location for the app before enabling it. macOS may require approval in System Settings → General → Login Items. Login launch has not been verified across a restart.
 
