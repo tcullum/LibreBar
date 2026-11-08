@@ -8,6 +8,17 @@ A native Mac menu bar display for LibreLinkUp glucose readings. Requires macOS 1
 
 ![Illustrative menu bar preview with a sample reading](docs/menu-bar-preview.svg)
 
+## History graph
+
+Click the menu bar reading to open the last 12 hours. The green band follows the target range shared by LibreLinkUp; “Glucose In Range” appears when the current value is inside it.
+
+Screenshots of the native panel with synthetic sample readings, not personal glucose history:
+
+| Light appearance · mg/dL | Dark appearance · mmol/L |
+| --- | --- |
+| ![12-hour history in light appearance with a highlighted 70–180 mg/dL range](docs/history-light.png) | ![12-hour history in dark appearance with a highlighted 3.9–10.0 mmol/L range](docs/history-dark-mmol.png) |
+
+
 ## Build and connect
 
 Install Apple’s command-line tools if needed with `xcode-select --install`, then clone and build:
