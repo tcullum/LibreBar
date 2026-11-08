@@ -16,7 +16,7 @@ Screenshots of the native panel with synthetic sample readings, not personal glu
 
 | Light appearance · mg/dL | Dark appearance · mmol/L |
 | --- | --- |
-| ![12-hour history in light appearance with a highlighted 70–180 mg/dL range](docs/history-light.png) | ![12-hour history in dark appearance with a highlighted 3.9–10.0 mmol/L range](docs/history-dark-mmol.png) |
+| ![12-hour history in light appearance with a highlighted 70–180 mg/dL range](docs/history-light.jpg) | ![12-hour history in dark appearance with a highlighted 3.9–10.0 mmol/L range](docs/history-dark-mmol.jpg) |
 
 
 ## Build and connect
